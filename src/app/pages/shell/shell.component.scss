@@ -1,0 +1,39 @@
+@import "/src/assets/responsive.mixin.scss";
+
+.sidenav-container {
+  height: 100%;
+  .sidenav {
+    width: 40%;
+  }
+}
+
+.mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar-single-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  height: max-content;
+}
+
+.mat-drawer-side {
+  border: none;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.mat-drawer-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(10px, 1fr);
+  grid-template-rows: max-content minmax(10px, 1fr);
+}
+
+nav {
+  .top-nav-list {
+    color: currentColor;
+  }
+}

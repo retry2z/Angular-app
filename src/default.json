@@ -1,0 +1,29 @@
+{
+  "menu": {
+    "guest": [
+      {
+        "title": "Link 1",
+        "icon": "home"
+      },
+      {
+        "title": "Link 2",
+        "icon": "menu"
+      },
+      {
+        "title": "Link 3",
+        "icon": "archive"
+      },
+      {
+        "title": "Link 4",
+        "icon": "account_box"
+      }
+    ],
+    "user": [],
+    "admin": [
+      {
+        "title": "admin",
+        "icon": "person"
+      }
+    ]
+  }
+}
